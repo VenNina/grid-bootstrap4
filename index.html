@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курсы 3D моделирования</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="row">
+        <div class="col-12 col-xs-12 header__content">
+          <a href="#" class="logo-link header__logo-link">
+            <picture class="header__logo-picture">
+              <source srcset="img/logo-mobile.svg" media="(max-width: 576px)">
+              <source srcset="img/logo.svg" media="(min-width: 576px)">
+              <img src="img/logo.svg" alt="Логитип Скилбокс" class="logo-img">
+            </picture>
+          </a>
+          <nav id="header-nav" class="nav header-nav">
+            <ul class="nav__list list-reset">
+              <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Преподователи</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Курсы</a></li>
+            </ul>
+          </nav>
+          <button id="burger" class="burger header__burger btn-reset" aria-label="Меню" aria-haspopup="true" aria-expanded="false">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="hero__content">
+              <h1 class="main-title">
+                Курсы 3D моделирования
+              </h1>
+              <p class="hero__descr">
+                Следует отметить, что существующая теория способствует повышению качества благоприятных перспектив. Не&nbsp;следует, однако, забывать.
+              </p>
+              <a class="link hero__link" href="#">Выбрать курс</a>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 display-none padding-top">
+            <picture class="hero__bg-picture">
+              <source srcset="img/hero-bg--tablet_690.png" media="(max-width: 992px)">
+              <source srcset="img/hero-bg--desktop.png" media="(max-width: 1110px)">
+              <img src="img/hero-bg--desktop.png" alt="" class="hero__bg" aria-hidden="true">
+            </picture>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="study">
+      <div class="container study__container">
+        <div class="row study__top">
+          <div class="col-lg-2 col-md-4 col-sm-4 study__top-bg">
+            <picture class="study__bg-picture">
+              <source srcset="img/texture-tablet_510.svg" media="(max-width: 510px)">
+              <source srcset="img/texture-tablet_690.svg" media="(max-width: 992px)">
+              <!-- <source srcset="img/texture-desktop.svg" media="(max-width: 1110px)">col-md-4  -->
+              <img src="img/texture-desktop.svg" alt="" class="stydy__bg" aria-hidden="true">
+            </picture>
+          </div>
+          <div class="col-lg-10 col-md-8 col-sm-8">
+            <div class="study__content">
+              <h2 class="title study__title">
+                Преимущества обучения в&nbsp;skillbox
+              </h2>
+              <p class="descr study__descr">
+                Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут рассмотрены исключительно в&nbsp;разрезе маркетинговых предпосылок.
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="row study__bottom list-reset study__list">
+          <li class="col-lg-4 col-md-4 col-sm-4 study__item">
+            <p class="study__item-descr study__item-descr--one">
+              Результат вашего обучения является самым важным для нас приоритетом
+            </p>
+          </li>
+          <li class="col-lg-4 col-md-4 col-sm-4 study__item">
+            <p class="study__item-descr study__item-descr--two">
+              Лично познакомитесь с&nbsp;одним из&nbsp;своих будущих преподавателей
+            </p>
+          </li>
+          <li class="col-lg-4 col-md-4 col-sm-4 study__item">
+            <p class="study__item-descr study__item-descr--three">
+              Значимость этих проблем очевидна, поэтому стоит всегда быть внимательным
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="teacher">
+      <div class="container teacher__container">
+        <h2 class="title teacher__title">
+          Преподаватели курсов
+        </h2>
+        <ul class="row list-reset teacher__list">
+          <li class="col-lg-3 col-md-6 col-sm-6 teacher__item card card-teacher">
+            <picture>
+              <source srcset="img/teacher1_mobile.png" media="(max-width: 576px)">
+              <source srcset="img/teacher1_510.png" media="(max-width: 768px)">
+              <source srcset="img/teacher1_690.png" media="(max-width: 992px)">
+              <img src="img/teacher1.png" alt="фотография Владимира Петрова" class="card__img card-teacher__img">
+            </picture>
+            <h3 class="card__name card-teachter__name">Владимир Петров</h3>
+            <p class="descr card__descr card-teacher__descr">
+              Лишь непосредственные участники технического прогресса неоднозначны и&nbsp;будут в&nbsp;равной степени предоставлены сами себе.
+            </p>
+          </li>
+          <li class="col-lg-3 col-md-6 col-sm-6 teacher__item card card-teacher">
+            <picture>
+              <source srcset="img/teacher2_mobile.png" media="(max-width: 576px)">
+              <source srcset="img/teacher2_510.png" media="(max-width: 768px)">
+              <source srcset="img/teacher2_690.png" media="(max-width: 992px)">
+              <img src="img/teacher2.png" alt="фотография Дениса Сергеева" class="card__img card-teacher__img">
+            </picture>
+            <h3 class="card__name card-teachter__name">Денис Сергеев</h3>
+            <p class="descr card__descr card-teacher__descr">
+              Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.
+            </p>
+          </li>
+          <li class="col-lg-3 col-md-6 col-sm-6 teacher__item card card-teacher">
+            <picture>
+              <source srcset="img/teacher3_mobile.png" media="(max-width: 576px)">
+              <source srcset="img/teacher3_510.png" media="(max-width: 768px)">
+              <source srcset="img/teacher3_690.png" media="(max-width: 992px)">
+              <img src="img/teacher3.png" alt="фотография Михаила Андреева" class="card__img card-teacher__img">
+            </picture>
+            <h3 class="card__name card-teachter__name">Михаил Андреев</h3>
+            <p class="descr card__descr card-teacher__descr">
+              Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит от&nbsp;вывода.
+            </p>
+          </li>
+          <li class="col-lg-3 col-md-6 col-sm-6 teacher__item card card-teacher">
+            <picture>
+              <source srcset="img/teacher4_mobile.png" media="(max-width: 576px)">
+              <source srcset="img/teacher4_510.png" media="(max-width: 768px)">
+              <source srcset="img/teacher4_690.png" media="(max-width: 992px)">
+              <img src="img/teacher4.png" alt="фотография Константина Дмитриева" class="card__img card-teacher__img">
+            </picture>
+            <h3 class="card__name card-teachter__name">Константин Дмитриев</h3>
+            <p class="descr card__descr card-teacher__descr">
+              Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая теория, в&nbsp;своём классическом представлении.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="course">
+      <div class="container course__container">
+        <h2 class="title course__title">
+          Курсы
+        </h2>
+        <ul class="row list-reset course__list">
+          <li class="col-lg-6 col-md-6 col-sm-6 course__item">
+            <article class="course__article">
+              <div class="card card-course card-course--one">
+                <div class="card__content card-course__content">
+                  <div class="card-course__text">
+                    <span class="card-course__length">60 часов</span>
+                    <h3 class="card__name card-course__name">Cinema 4d&nbsp;для начинающих</h3>
+                    <p class="descr card-course__descr">
+                      Учитывая ключевые сценарии поведения, базовый вектор развития напрямую зависит от&nbsp;системы массового участия. Следует отметить, что сложившаяся структура организации напрямую зависит от&nbsp;стандартных подходов.
+                    </p>
+                  </div>
+                  <a href="#" class="link course__link card-course__link">Подробнее</a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="col-lg-6 col-md-6 col-sm-6 course__item">
+            <article class="course__article">
+              <div class="card card-course card-course--two">
+                <div class="card__content card-course__content">
+                  <div class="card-course__text">
+                    <span class="card-course__length">40 часов</span>
+                    <h3 class="card__name card-course__name">Blender:&nbsp;продвинутый уровень</h3>
+                    <p class="descr card-course__descr">
+                      Но&nbsp;убеждённость некоторых оппонентов в&nbsp;значительной степени обусловливает важность форм воздействия. Внезапно, тщательные исследования конкурентов представлены.
+                    </p>
+                  </div>
+                  <a href="#" class="link course__link card-course__link">Подробнее</a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="col-lg-6 col-md-6 col-sm-6 course__item">
+            <article class="course__article">
+              <div class="card card-course card-course--three">
+                <div class="card__content card-course__content">
+                  <div class="card-course__text">
+                    <span class="card-course__length">40 часов</span>
+                    <h3 class="card__name card-course__name">Визуализация в&nbsp;3ds Max</h3>
+                    <p class="descr card-course__descr">
+                      Повседневная практика показывает, что сложившаяся структура организации обеспечивает актуальность кластеризации усилий.
+                    </p>
+                  </div>
+                  <a href="#" class="link course__link card-course__link">Подробнее</a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="col-lg-6 col-md-6 col-sm-6 course__item">
+            <article class="course__article">
+              <div class="card card-course card-course--four">
+                <div class="card__content card-course__content">
+                  <div class="card-course__text">
+                    <span class="card-course__length">80 часов</span>
+                    <h3 class="card__name card-course__name">Скульптинг в&nbsp;ZBrush</h3>
+                    <p class="descr card-course__descr">
+                      Разнообразный и&nbsp;богатый опыт говорит нам, что граница обучения кадров требует определения и&nbsp;уточнения прогресса профессионального сообщества! В&nbsp;частности, постоянный количественный рост и&nbsp;сфера нашей активности.
+                    </p>
+                  </div>
+                  <a href="#" class="link course__link card-course__link">Подробнее</a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer-container__top">
+        <ul class="social__list list-reset">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/facebook.svg" alt="Skillbox в Facebook" class="social__img"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/twitter.svg" alt="Skillbox в Twitter" class="social__img"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/instagram.svg" alt="Skillbox в Instagram" class="social__img"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/Youtube.svg" alt="Skillbox в Youtube" class="social__img"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fotter__bottom">
+      <div class="container footer-container__bottom">
+        <div class="footer__copyriter">
+          skillbox <span class="reg">&reg;</span> 2021
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/openBurger.js"></script>
+</body>
+
+</html>
